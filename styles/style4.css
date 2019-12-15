@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red !important; */
+}
+
+body {
+    width: 100%;
+}
+
+.navbar ul {
+    list-style-type: none; /* clears style of li items */
+    margin: 20px;
+}
+
+.navbar li {
+    display: inline;
+    width: 60px;
+}
+
+.right {
+    float: right;
+}
+
+.navbar a {
+    padding-left: 15px;
+    color: #000;
+    opacity: 0.75;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    display: inline;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    display: flex; /* I don't think I understand what this is doing */
+    justify-content: center;
+    margin-top: 160px; 
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    margin-top: 22px;
+}
+
+input[type=text] { /* only selecting text fields */
+    width: 580px;
+    height: 45px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid rgb(192, 189, 189);
+    text-align: left;
+}
+
+input[type="text"]:hover {
+    box-shadow: 2px 2px 2px rgb(216, 216, 216);
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    border: 1px solid #f2f2f2;
+    
+    border-radius: 4px;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 35px 4px;
+}
+
+.default {
+    background-color: #f2f2f2;
+    color: #5F6368;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.default:hover {
+    box-shadow: 2px 2px 2px rgb(216, 216, 216);
+    border: 1px solid rgb(185, 183, 183);
+}
+
+.footer {
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    line-height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #5f6368;
+    padding-left: 27px;
+}
+
+.settings {
+    padding-right: 27px;
+}

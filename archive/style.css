@@ -1,0 +1,33 @@
+header {
+    display: inline-block;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    float: left;
+    padding: 8px;
+}
+
+a {
+    display: block;
+    padding: 10px;
+    background-color: darkgoldenrod;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+
+.buttoncenter {
+    margin-right: auto;
+    margin-left: auto;
+}
+footer {
+    display: inline-block;
+    background-color: #f3f3f3;
+}

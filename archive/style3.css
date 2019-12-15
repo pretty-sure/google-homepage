@@ -1,0 +1,90 @@
+html, body {
+    height: 100%; /* sets height of the element. */
+    margin: 0; /* controls space around elements, outside of any defined borders */
+    padding: 0; /* generates space around an element's content, inside of any defined borders */
+}
+
+div {
+    display: block; /* sets each div on a new line, taking up full width */
+}
+
+#body {
+    font-family: Arial, Helvetica, sans-serif; /* sets element's font family */
+    padding-bottom: 5%;
+}
+
+#container {
+    min-height: 100%; /* sets the minimum height of element */
+    position: relative; /* The element is positioned relative to its normal position */
+    font-size: 15px;
+}
+
+#navbar {
+    width: 100%; /* sets nav bar to stretch 100% across screen */ 
+    height: 5%; 
+} 
+
+#navbar a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#navbar a:hover {
+    text-decoration: underline;
+}
+
+#navbar li { 
+    display: inline-block; 
+    float: left; 
+    padding: 5px 15px;
+}
+
+#navbar .float-right {
+    display: inline-block;
+    float: right;
+}
+
+#btn {
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: rgb(167, 14, 14); 
+    padding: 10px 20px;
+    cursor: pointer; 
+    margin: 35px 4px;
+}
+#center {
+    clear: both; 
+    text-align: center;
+    margin: auto; 
+    height: 25%; 
+    padding: 9%;  
+}
+
+#input-search {
+    width: 42%; /* stretches search bar */
+    height: 35px; /* adjusts height of search bar */
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+
+
+
+footer {
+    width: 100%;
+    height: 20px;
+    bottom: 0;
+    position: absolute;
+    border-top: 1px solid lightgray;
+    background-color: #f2f2f2;
+}
+
+footer ul li {
+    display: block;
+    float: left;
+    padding: 0px 15px;
+}
+
+.footer-float-right {
+    display: block;
+    float: right;
+}
